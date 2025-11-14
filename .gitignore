@@ -1,0 +1,35 @@
+# Ignore virtual environments
+venv/
+*/venv/
+
+# Ignore Python cache files
+__pycache__/
+*/__pycache__/
+
+# Ignore PEM key/certificate files
+*.pem
+
+# Ignore database files
+*.db
+
+# Ignore JWT token files
+*.jwt
+
+# Ignore text files
+*.txt
+
+# Ignore any file with 'prep' in its name (case-insensitive)
+*[Pp][Rr][Ee][Pp]*
+
+# Optional: common Python build / IDE clutter
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.env.*
+*.egg-info/
+dist/
+build/
+.idea/
+.vscode/
