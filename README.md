@@ -1,4 +1,4 @@
-# 🛡️ OAuth2 Authorization Server (FastAPI + JWT + PKCE)
+# OAuth2 Authorization Server (FastAPI + JWT + PKCE)
 
 A complete, standards-compliant OAuth 2.0 Authorization Server implemented in **Python 3.10.11** using **FastAPI**.  
 Supports Authorization Code + PKCE flow, RS256-signed JWT access tokens, introspection, revocation, and JWKS key discovery.
@@ -124,6 +124,6 @@ Example decoded JWT payload:
 - cryptography – RSA key handling
 - Passlib[bcrypt] – password hashing
 
-# 📜 License
+# License
 
 MIT License — feel free to reuse, learn from, or extend this server for your own OAuth2 experiments and integrations.
